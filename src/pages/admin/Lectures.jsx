@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { toast } from 'react-toastify';
 import Swal from 'sweetalert2';
 import LectureModal from '../../components/LectureModal';
-import { lecturesData } from '../../Data/LecturesData';
+import { lecturesData } from '../../data/LecturesData';
 
 export default function Lectures() {
   const [lectures, setLectures] = useState(lecturesData);

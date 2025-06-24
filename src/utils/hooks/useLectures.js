@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { lecturesData } from '../../Data/LecturesData';
+import { lecturesData } from '../../data/LecturesData';
 
 // Simulate API calls
 const getLectures = () => Promise.resolve(lecturesData);

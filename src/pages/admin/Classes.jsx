@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
 import Swal from 'sweetalert2';
 import Pagination from '../../components/Pagination';
-import { coursesData } from '../../Data/CoursesData';
-import { lecturesData } from '../../Data/LecturesData';
+import { coursesData } from '../../data/CoursesData';
+import { lecturesData } from '../../data/LecturesData';
 import studentsData from '../../data/students.json';
 import { useClasses } from '../../hooks/useClasses';
 import { getLecturerTotalCredits, getStudentTotalCredits } from '../../services/classService';

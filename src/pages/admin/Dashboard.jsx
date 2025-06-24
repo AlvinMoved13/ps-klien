@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { lecturesData } from '../../Data/LecturesData';
 import BarChartCard from '../../components/BarChartCard';
 import LineChartCard from '../../components/LineChartCard';
 import PieChartCard from '../../components/PieChartCard';
+import { lecturesData } from '../../data/LecturesData';
 import studentsData from '../../data/students.json';
 
 const Dashboard = () => {

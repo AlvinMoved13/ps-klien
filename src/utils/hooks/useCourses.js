@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { toast } from 'react-toastify';
-import { coursesData } from '../../Data/CoursesData';
+import { coursesData } from '../../data/CoursesData';
 
 // Initialize localStorage with default data if empty
 const initializeData = () => {
